@@ -2,7 +2,7 @@ const student = [
     { id: 1, name: "Sakib", age: 19, marks: 33 },
     { id: 2, name: "Rakib", age: 15, marks: 30 },
     { id: 3, name: "Sobuj", age: 22, marks: 79 },
-    { id: 4, name: "Raj", age: 24, marks: 65 },
+    { id: 4, name: "Raj", age: 24, marks: 10 },
     { id: 5, name: "Fahim", age: 22, marks: 55 }
 ];
 // const items = student.map(student => {
@@ -28,3 +28,24 @@ const student = [
 // const block = student.filter(mark=> mark.marks !== 65);
 // console.log(block);
 
+
+// const result =student.filter(s=> {
+//     return s.marks > 25 ;
+// });
+// console.log(result);
+
+// const result =student.filter(s=> {
+//     return s.marks < 25 ;
+// });
+// console.log(result);
+
+
+// const result =student.filter(s=> {
+//     return s.name.includes("a") ;
+// });
+// console.log(result);
+
+const result =student.filter(s=> {
+    return s.name.startsWith("R") ;
+});
+console.log(result);
