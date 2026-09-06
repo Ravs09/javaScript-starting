@@ -5,4 +5,26 @@ const student = [
     { id: 4, name: "Raj", age: 24, marks: 65 },
     { id: 5, name: "Fahim", age: 22, marks: 55 }
 ];
-console.log(student)
+// const items = student.map(student => {
+//     return student.name;
+// });
+// console.log(items);
+
+// const filter = student.filter(student => {
+//     return student.name === "Sakib"
+// })
+
+// console.log(filter)
+
+// const filter = student.filter(x => {
+//     return x.id === 2;
+// });
+
+// console.log(filter);
+
+// const find = student.find(mark=> mark.marks === 65);
+// console.log(find)
+
+// const block = student.filter(mark=> mark.marks !== 65);
+// console.log(block);
+
