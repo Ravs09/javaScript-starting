@@ -45,7 +45,7 @@ const student = [
 // });
 // console.log(result);
 
-const result =student.filter(s=> {
-    return s.name.startsWith("R") ;
-});
-console.log(result);
+// const result =student.filter(s=> {
+//     return s.name.startsWith("R") ;
+// });
+// console.log(result);
