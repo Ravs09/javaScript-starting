@@ -5,10 +5,10 @@ const student = [
     { id: 4, name: "Raj", age: 24, marks: 10 },
     { id: 5, name: "Fahim", age: 22, marks: 55 }
 ];
-// const items = student.map(student => {
-//     return student.name;
-// });
-// console.log(items);
+const items = student.map(student => {
+    return student.name;
+});
+console.log(items);
 
 // const filter = student.filter(student => {
 //     return student.name === "Sakib"
@@ -47,5 +47,10 @@ const student = [
 
 // const result =student.filter(s=> {
 //     return s.name.startsWith("R") ;
+// });
+// console.log(result);
+
+// const result =student.filter(s=> {
+//     return s.name.endsWith("b") ;
 // });
 // console.log(result);
